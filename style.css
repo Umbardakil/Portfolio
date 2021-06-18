@@ -141,14 +141,15 @@ nav a:hover {
 .about .small-container {
   margin: 0 auto;
   max-width: 1200px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
 .about-text {
-  margin: 2rem 1rem 2rem 4rem;
+  max-width: 60rem;
+  margin: 2rem 1rem;
 }
 .about-text p {
   margin-top: 1rem;
@@ -178,7 +179,7 @@ nav a:hover {
 .project {
   margin: 1rem;
   position: relative;
-  width: 40rem;
+  width: 35rem;
 }
 
 .project img {
@@ -204,7 +205,8 @@ nav a:hover {
   opacity: 1;
 }
 .img-overlay p {
-  margin: 2rem 4rem;
+  margin: 2rem;
+  color: var(--clr-blue1);
 }
 
 .img-overlay a {
