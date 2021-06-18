@@ -17,6 +17,7 @@ html {
 body {
   font-size: 1.6rem;
   font-weight: 500;
+  font-family: "Lora", serif;
 }
 
 ul {
@@ -148,8 +149,9 @@ nav a:hover {
   gap: 1rem;
 }
 .about-text {
-  max-width: 60rem;
+  max-width: 55rem;
   margin: 2rem 1rem;
+  line-height: 1.6;
 }
 .about-text p {
   margin-top: 1rem;
